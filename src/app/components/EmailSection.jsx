@@ -4,6 +4,7 @@ import GithubIcon from "../../../public/github-icon.svg";
 import LinkedinIcon from "../../../public/linkedin-icon.svg";
 import Link from "next/link";
 import Image from "next/image";
+import { MailIcon } from "lucide-react";
 
 const EmailSection = () => {
 
@@ -42,6 +43,9 @@ const EmailSection = () => {
           <Link href="https://www.linkedin.com/in/adamya-tiwari-2922b3328/">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
+        </div>
+        <div>
+        <p className="mt-10"><MailIcon className="inline"/> adamyatiwari99@gmail.com</p>
         </div>
       </div>
       <div>
