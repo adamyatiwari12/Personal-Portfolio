@@ -48,7 +48,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          I’m a frontend developer dedicated to crafting clean, responsive, and user-friendly web applications. I work primarily with HTML, CSS, JavaScript, and React, and enjoy turning ideas into interactive, accessible interfaces. Beyond web development, I have a strong interest in algorithmic problem-solving — I’ve solved over 100 challenges on LeetCode and achieved a Codeforces rating of 1000, which has helped me strengthen my logical thinking and coding efficiency.
+          I&rsquo;m a frontend developer dedicated to crafting clean, responsive, and user-friendly web applications. I work primarily with HTML, CSS, JavaScript, and React, and enjoy turning ideas into interactive, accessible interfaces. Beyond web development, I have a strong interest in algorithmic problem-solving — I&rsquo;ve solved over 100 challenges on LeetCode and achieved a Codeforces rating of 1000, which has helped me strengthen my logical thinking and coding efficiency.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

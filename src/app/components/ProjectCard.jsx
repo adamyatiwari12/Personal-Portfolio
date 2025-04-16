@@ -7,14 +7,15 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
   return (
     <div className="rounded-xl overflow-hidden bg-[#181818] shadow-xl">
       <div className="relative h-52 md:h-64 w-full group">
-        {/* Image container with object-contain to show full image */}
         <div 
           className="w-full h-full flex items-center justify-center bg-[#111111]"
         >
-          <img 
+          <Image
             src={imgUrl} 
             alt={title}
-            className="max-h-full max-w-full object-contain" 
+            height={100}
+            width={100}
+            className="h-full w-full object-contain" 
           />
         </div>
         
